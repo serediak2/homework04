@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantics</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1>HTML5 Семантичні елементи</h1>
+                <p>
+                    Семантичний елемент чітко описує його значення як для браузера, так і для розробника. <br>
+                    Приклади <strong>не семантичних</strong> елементів: &#60;div&#62;; і &#60;span&#62;- нічого не говорить про його вміст. <br>
+                    Приклади <strong>семантичних</strong> елементів: &#60;form&#62;, &#60;table&#62;і &#60;article&#62;- чітко визначає його зміст.
+                </p>
+                            
+                <section class="browsers">
+                    <h3>Підтримка браузерів</h3>
+                        <img src="./images/Google_Chrome-Logo.wine.svg" alt="Google_Chrome-Logo"
+                            width="50">
+                        <img src="./images/Microsoft_Edge-Logo.wine.svg" alt="Microsoft_Edge-Logo"
+                            width="50">
+                        <img src="./images/Firefox-Logo.wine.svg" alt="Firefox-Logo"
+                            width="50">
+                        <img src="./images/Safari_(web_browser)-Logo.wine.svg" alt="Safari"
+                            width="50">
+                        <img src="./images/Opera_Software-Logo.wine.svg" alt="Opera_Software-Logo"
+                            width="50">
+                        <p>
+                            Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах. <br>
+                            Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи". <br>
+                            Прочитайте про це в <a href="https://www.blogger.com/onboarding">підтримці браузера HTML5 </a> .
+                        </p>
+                </section>
+            </div>
+                        
+        </header>
+
+        <main>
+            <section class="all-elements">
+                <div class="container-all-elements">
+                    <h2>Нові семантичні елементи в HTML5</h2>
+                    <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+                    <ul>
+                        <li><a href="#section-element">&#60;section&#62;</a></li>
+                        <li><a href="#article-element">&#60;article&#62;</a></li>
+                        <li><a href="#header-element">&#60;header&#62;</a></li>
+                        <li><a href="#footer-element">&#60;footer&#62;</a></li>
+                    </ul>
+
+                </div>
+                <article id="section-element" class="section-element">
+                    <div class="container-section-element">
+                        <h3>HTML5 &#60;section&#62; елемент</h3>
+                        <p>Елемент &#60;section&#62;визначає розділ в документі.
+                            Згідно з документацією в3к'с HTML5: "розділ представляє собою
+                            тематичну угруповання контенту, зазвичай з заголовком".
+                            Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.</p>
+                        <img src="./images/Example1.png" alt="Example1" width="500">
+                    </div>
+                </article>
+
+                <article id="article-element" class="article-element">
+                    <div class="container-article-element">
+                        <h3>HTML5 &#60;article&#62; елемент</h3>
+                        <p>Елемент &#60;article&#62; визначає незалежний, автономний вміст.
+                            Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+                            читати його незалежно від іншої частини веб-сайту.
+                            Приклади того, де можна використовувати елемент &#60;article&#62;:
+                        </p>
+                        <ul>
+                            <li>Повідомлення на форумі</li>
+                            <li>блозі</li>
+                            <li>Газетна стаття</li>
+                        </ul>
+                        <img src="./images/Example2.png" alt="Example2" width="500">
+                    </div>
+                </article>
+
+                <article id="header-element" class="header-element">
+                    <div class="container-header-element">
+                        <h3>HTML5 &#60;header&#62; елемент</h3>
+                        <p>Елемент &#60;header&#62; задає заголовок для документа або розділу. <br>
+                            Елемент &#60;header&#62; повинен використовуватися в якості контейнера для вступного змісту. <br>
+                            В одному документі може бути кілька елементів &#60;header&#62;. <br> 
+                            У наступному прикладі визначається заголовок для статті:
+                        </p>
+                        <img src="./images/Example3.png" alt="Example3" width="500">
+                    </div>
+                </article>
+
+                <article id="footer-element" class="footer-element">
+                    <div class="container-footer-element">
+                        <h3>HTML5 &#60;footer&#62; елемент</h3>
+                        <p>Елемент &#60;footer&#62; вказує нижній колонтитул для документа або розділу. <br>
+                            Нижній колонтитул зазвичай містить автора документа, інформацію про
+                            авторське право, посилання на умови використання, контактні дані і т.д. <br>
+                            В одному документі може бути кілька елементів &#60;footer&#62;.
+                        </p>
+                        <img src="./images/Example4.png" alt="Example4" width="500">
+                    </div>
+                </article>
+            </section>
+        </main>
+        <aside class="extra-task">
+            <div class="container-aside">
+                <section class="extra-task1">
+                    <div class="container-extra">
+                        <h3>Extra task 1: iframe (CV)</h3>
+                        <iframe src="file:///Users/natalia/Documents/front-end-beetroot/homework/homework02-cv-serediak/index.html" 
+                            frameborder="0" width="100%" height="300" style="border:1px solid black;">
+                        </iframe>
+                    </div>
+                </section>
+                
+                <section class="extra-task2">
+                    <div class="container-extra">
+                        <h3>Extra task 2: iframe (YouTube video)</h3>
+                        <iframe src="https://www.youtube.com/watch?v=dEBVe8Ij7JU&list=PLytQ0YczAfcdj-OUqWO20vPsr0ix0M1Us" 
+                        frameborder="0" width="100%" height="300" style="border:1px solid black;"></iframe>
+                    </div>
+                </section>
+
+            </div>
+        </aside>
+        <footer>
+            <p>@copyright</p>
+        </footer>
+    </div>
+</body>
+</html>
